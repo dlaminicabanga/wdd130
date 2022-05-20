@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Permanent+Marker&display=swap');
+.home-title {
+    font-family:'Permanent Marker', 'Courier Prime', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    background-color:cornflowerblue;
+    line-height: 1.5em;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -9,6 +19,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -19,8 +30,13 @@ nav a {
 main section {
     text-align: center;
 }
+
 body {
     background-color: bisque;
+    font-family:'Courier Prime', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 
 }
 header {
@@ -34,22 +50,39 @@ nav a:hover {
     background-color: cornflowerblue;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color: white;
     color: red;
 }
 #background {
-    background-color: yellowgreen;
+    background-color: lightsteelblue;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+    padding-bottom: 15px;
+    margin-bottom: 200px;
 }
 .msg {
     background-color: aqua;
+    padding: 35px;
+    line-height: 1.5em;
 }
 footer {
     background-color: aqua;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 .home-title {
     color: black;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: black;
@@ -59,6 +92,7 @@ h4 {
 }
 .msg p {
     color: black;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: black;
@@ -74,9 +108,33 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+    margin-top: 100px;
 }
 #hero-img {
     width: 100%;
+}
+.social img {
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapid-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #fca311;
+    padding-top: 0px;
+    margin-top: 200px;
+}
+.mountains {
+    padding-bottom: 15px;
+    margin-bottom: 200px;
+}
+main section img {
+    box-sizing: border-box;
+    
 }
