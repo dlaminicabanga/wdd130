@@ -220,3 +220,37 @@ main section img {
         margin-top: 25px;
     }
 }
+/* The content below is stickly for the river page */
+
+.river-narrow1 {
+
+    width: 82%;
+    box-shadow: 5px 5px 10px #284253;
+    box-decoration-break: clone;
+    }
+
+.river-narrow2 {
+
+    width: 73%;
+    box-shadow: 5px 5px 10px #284253;
+    align-items: center;
+    box-decoration-break: clone;
+
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+p {
+    font-size: 16px;
+    line-height: 2em;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+h3 {
+    margin-left: 29px;
+    
+}
