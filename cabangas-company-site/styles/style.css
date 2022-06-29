@@ -158,3 +158,13 @@ media screen and (max-width: 900px) {
         display: block;
         padding: 15px;
     }
+    .footer-links {
+        color: #F1F9F5;
+        text-decoration: none;
+        font-family: "Brygada";
+    }
+    .footer-links:hover {
+        color: #284253;
+        text-decoration: underline;
+        background-color: #F1F9F5;
+    }
