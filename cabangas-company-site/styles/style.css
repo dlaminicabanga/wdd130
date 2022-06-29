@@ -161,10 +161,10 @@ media screen and (max-width: 900px) {
     .footer-links {
         color: #F1F9F5;
         text-decoration: none;
-        font-family: "Brygada";
+
     }
     .footer-links:hover {
-        color: #284253;
-        text-decoration: underline;
+        color: red;
+        text-decoration: underlinen;
         background-color: #F1F9F5;
     }
