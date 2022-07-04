@@ -237,7 +237,7 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
-#keyborad-img {
+#keyboard1-img {
     width: 50%;
     opacity: 90%;
     border: 1px solid#334E60;
@@ -249,7 +249,7 @@ footer .social img {
     border-radius: 30px;
 }
 
-#keyborad-img:hover {
+#keyboard1-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
