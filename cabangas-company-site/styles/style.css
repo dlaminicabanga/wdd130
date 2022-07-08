@@ -52,10 +52,9 @@ nav a {
     align-content: start;
 }
 
-h1 {
+.welcome {
     margin-left: 60px;
     margin-right: 20px;
-    box-shadow: #DC7C23;
     color: #396E94;
     padding: 60px;
     text-align: center;
@@ -64,9 +63,22 @@ h1 {
     font-size: 40px;
     font-family: Cherry Cream Soda;
 }
+
+.software-head {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #396E94;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 40px;
+    font-family: Cherry Cream Soda;
+}
+
+
 h3 {
     color: #396E94;
-    size: 16em;
     text-align: center;
 }
 
@@ -157,23 +169,59 @@ footer .social img {
 
 }
 
-#index-img:hover {
-    opacity:
-        transform: scale(1.1);
-}
-
 #software-img {
-    width:50%;
+    width:80%;
+    height: 500px;
     opacity: 90%;
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
     border-radius: 30px;
+    margin-left: 9%;
 }
 
 #software-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+
+#software2-img {
+    width: 80%;
+    height: 500px;
+    opacity: 90%;
+    border: 1px solid#334E60;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #DC7C23;
+    margin-left: 10%;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+#software2-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#windows-img {
+    width: 80%;
+    height: 500px;
+    opacity: 90%;
+    border: 1px solid#334E60;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #DC7C23;
+    margin-left: 10%;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+#windows-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+.soft-grid {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 1px;
 }
 
 #homepage2-img {
@@ -222,21 +270,7 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
-#software2-img {
-    width: 60%;
-    opacity: 90%;
-    border: 1px solid#334E60;
-    transition: transform .2s;
-    box-shadow: 5px 5px 10px #DC7C23;
-    margin-left: 10%;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    
-}
-#software2-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
+
 #keyboard1-img {
     width: 50%;
     opacity: 90%;
@@ -245,7 +279,6 @@ footer .social img {
     box-shadow: 5px 5px 10px #DC7C23;
     margin-left: 30%;
     -webkit-margin-top-collapse: 40px;
-    z-index: 90px;
     border-radius: 30px;
 }
 
@@ -254,40 +287,22 @@ footer .social img {
     transform: scale(1.1);
 }
 #contuct-list {
-    background-color: chocolate;
+    background-color: bisque;
     font-size: large;
     text-decoration: wavy;
     font-weight: 200;
     color: black;
     line-height: 40px;
+    margin-left: 5%;
+    margin-right: 60px;
+    font-family: Source Serif Pro;
 }
 
 @media screen and (max-width: 900px) {
-
-    nav,
-    footer {
-        flex-direction: column;
-    }
-
-    nav {
+    .soft-grid {
         display: block;
-        padding: 15px;
+        height: auto;
     }
-
-    .footer-links {
-        color: #F1F9F5;
-        text-decoration: none;
-
-    }
-
-    .footer-links:hover {
-        color: red;
-        text-decoration: none;
-        background-color: #F1F9F5;
-    }
-
-    section {
-        width: 50%;
-        border: 15px solid;
-    }
-  
+    nav, footer {
+        flex-direction: column;
+    }}
