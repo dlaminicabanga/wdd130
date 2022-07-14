@@ -126,13 +126,13 @@ header {
 
 footer {
     background-color: #24799D;
-    color: white;
+    font-display: white;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 15px;
+    font-size: small;
 }
 
 footer .social img {
@@ -150,7 +150,7 @@ footer .social img {
     position: relative;
     margin-left: 100px;
     margin-right: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
 
 }
 
@@ -165,7 +165,7 @@ footer .social img {
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
-    border-radius: 30px;
+    border-radius: 10px;
 
 }
 
@@ -176,7 +176,7 @@ footer .social img {
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 9%;
 }
 
@@ -194,7 +194,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #DC7C23;
     margin-left: 10%;
     border: 1px solid #ddd;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 #software2-img:hover {
     opacity: .6;
@@ -210,7 +210,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #DC7C23;
     margin-left: 10%;
     border: 1px solid #ddd;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 #windows-img:hover {
     opacity: .6;
@@ -225,31 +225,27 @@ footer .social img {
 }
 
 #homepage2-img {
-    width: 99%;
+    width: 90%;
     height: 600px;
     opacity: 90%;
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
-    border-radius: 30px;
-    
-}
-
-#homepage2-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #repair-img {
-    width: 60%;
+    width: 90%;
+    height: 260px;
     opacity: 90%;
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
-    margin-left: 10%;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
 }
 
 #repair-img:hover {
@@ -258,12 +254,14 @@ footer .social img {
 }
 
 #repair2-img {
-    width: 40%;
+    width: 90%;
+    height: 280px;
     opacity: 90%;
     border: 1px solid#334E60;
     transition: transform .2s;
     box-shadow: 5px 5px 10px #DC7C23;
-    border-radius: 30px;
+    border-radius: 10px;
+    
 }
 
 #repair2-img:hover {
@@ -279,7 +277,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #DC7C23;
     margin-left: 30%;
     -webkit-margin-top-collapse: 40px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 #keyboard1-img:hover {
@@ -296,6 +294,70 @@ footer .social img {
     margin-left: 60px;
     margin-right: 60px;
     font-family: Source Serif Pro;
+}
+
+#booking {
+    color: whitesmoke;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 25px;
+    font-size:small;
+    font-family: Source Serif Pro;
+    padding-left: 10px;
+    background-color: #396E94;
+}
+
+#bookings-list {
+    color: bisque;
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: medium;
+    line-height: 30px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 1px;
+}
+.documenation {
+    color:brown;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: medium;
+}
+
+#headers {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #396E94;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 35px;
+    font-family: Cherry Cream Soda;
+}
+.dail-numbers {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #396E94;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 35px;
+    font-family: Cherry Cream Soda;
+    border-radius: 10px;
+
+}
+
+#note {
+    font-size: medium;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: serif;
 }
 
 @media screen and (max-width: 900px) {
